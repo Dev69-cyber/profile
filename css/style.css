@@ -584,9 +584,13 @@ h3 span:nth-of-type(1) {
   margin-bottom: 4px;
   
 }
+.technologies h4{
+  font-size: var(--font-size-p);
+}
 .technologies p{
   width: 100%;
   max-width: 400px;
+  font-size: var(--font-size-p);
   color: var(--color-p);
   line-height: 1.3em;
 }

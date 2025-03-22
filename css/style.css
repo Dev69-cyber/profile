@@ -592,6 +592,7 @@ h3 span:nth-of-type(1) {
 }
 .technologies .technologies-box div{
   color: var(--color-p);
+  font-size: var(--font-size-p);
 }
 progress{
   appearance: none;
@@ -888,7 +889,7 @@ progress::-webkit-progress-bar{
   
   
   .container{
-    padding: 15px;
+    padding: 12px;
   }
   .box-Social-media{
     width: 100%;

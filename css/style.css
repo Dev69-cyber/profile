@@ -784,13 +784,16 @@ progress::-webkit-progress-bar{
   }
   .Service{
     width: 100%;
-    height: 110px;
-    height: none;
+    height: 130px;
     padding: 10px;
+    display: inline-block;
     flex-direction: row;
   }
-
+  .Service .card{
+    padding: 0;
+  }
   .Service .bg-set{
+    height: 100%;
     flex-direction: row;
     gap: 10px;
     padding: 10px;
@@ -800,10 +803,7 @@ progress::-webkit-progress-bar{
     width: 60px;
   }
   .Service-content{
-    display: flex;
-    flex-direction: column;
-    
-    margin-left: 10px;
+
     
   }
   .Service-content h3{

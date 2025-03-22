@@ -40,16 +40,22 @@
 }
 
 *{
-  
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
+
   
 }
 html{
   scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 340;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 body{
   width: 100%;
@@ -264,6 +270,12 @@ h3{
 h3 span:nth-of-type(1) {
   color: var(--color-style-three);
 }
+a:active{
+  -webkit-tap-highlight-color: transparent;
+}
+p{
+  line-height: 1.4;
+}
 .home{
   width: 100%;
   margin-top: 60px;
@@ -441,7 +453,7 @@ h3 span:nth-of-type(1) {
 
 
 .Service {
-  width: 210px;
+  width: 230px;
   height: 230px;
   background: linear-gradient(var(--color-style-one), transparent 70%, var(--color-style-zero) 10%);
   border-radius: 30px;
@@ -728,21 +740,11 @@ progress::-webkit-progress-bar{
 }
 
 
-@media(max-width:1000px){
-  .Services{
-    gap: 100px;
-  }
-}
 
-@media (max-width: 794px) {
-  .header-icon{
-    display: none;
-  }
-}
+
+
 @media (max-width: 800px) {
-  .Service {
-    width: 200px;
-  }
+
 
   :root{
     --font-size-title:1.5em;
@@ -751,8 +753,17 @@ progress::-webkit-progress-bar{
   }
 }
 
+@media (max-width: 794px) {
+  .header-icon{
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .Services-Services{
+    gap: 2;
+  }
 
-
+}
 @media (max-width: 720px) {
 
   :root {
@@ -838,7 +849,9 @@ progress::-webkit-progress-bar{
   }
 }
 @media (max-width: 561px) {
- 
+  .Projects{
+    padding: 0;
+  }
   .Projects .Project{
     flex-direction: column;
     justify-content: space-between;

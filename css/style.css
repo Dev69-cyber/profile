@@ -80,9 +80,8 @@ header nav .open-menu{
   background-color: transparent;
 }
 header nav{
-  width: 90%;
-  max-width: 1500px;
-  padding: 10px;
+  width: 100%;
+  padding: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -111,6 +110,9 @@ header nav .logo {
 
 header nav .logo img{
   width: 40px;
+}
+header nav .logo h1{
+  font-size: var(--font-size-title);
 }
 header nav .open-menu ul{
   list-style: none;
@@ -859,6 +861,12 @@ progress::-webkit-progress-bar{
     height: 190px;
     
   }
+  .container{
+    padding: 22px;
+  }
+  header nav{
+    padding: 20px;
+  }
 }
 
 
@@ -894,6 +902,9 @@ progress::-webkit-progress-bar{
   
   .container{
     padding: 12px;
+  }
+  header nav{
+    padding: 10px;
   }
   .box-Social-media{
     width: 100%;

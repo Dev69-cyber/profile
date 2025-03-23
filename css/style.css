@@ -45,7 +45,7 @@
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
-
+  -webkit-tap-highlight-color: transparent;
   
 }
 html{
@@ -270,7 +270,11 @@ h3{
 h3 span:nth-of-type(1) {
   color: var(--color-style-three);
 }
-a:active{
+a,
+a:active,
+a:link,
+a:hover,
+a:visited{
   -webkit-tap-highlight-color: transparent;
 }
 p{
@@ -502,7 +506,6 @@ p{
 .Service img{
   width: 60px;
   
-  
 }
 .Service i{
   font-size: 50px;
@@ -563,6 +566,7 @@ p{
   max-width: 400px;
   font-size: var(--font-size-p);
   color: var(--color-p);
+  
 }
 
 .Project .designer-img{
@@ -596,19 +600,29 @@ p{
   margin-bottom: 4px;
   
 }
-.technologies h4{
-  font-size: var(--font-size-subtitle);
+.Technologies h4{
+  font-size: var(--font-size-p);
 }
-.technologies p{
-  width: 100%;
+.Technologies .Technologies-h4{
+  color: var(--color-style-three);
+}
+.Technologies .Technologies-p{
+  width: 95%;
   max-width: 400px;
   font-size: var(--font-size-p);
   color: var(--color-p);
-
+}
+.Technologies p{
+  width: 95%;
+  max-width: 400px;
+  font-size: var(--font-size-p);
+  color: var(--color-p);
+  
 }
 .technologies .technologies-box div{
   color: var(--color-p);
   font-size: var(--font-size-p);
+  
 }
 progress{
   appearance: none;
@@ -742,8 +756,6 @@ progress::-webkit-progress-bar{
 
 
 @media (max-width: 800px) {
-
-
   :root{
     --font-size-title:1.5em;
     --font-size-subtitle: 1em;
@@ -827,9 +839,6 @@ progress::-webkit-progress-bar{
 
 
 @media (max-width: 561px) {
-
-  
-  
   .Contact .follow img{
     width: 20px;
   }
@@ -928,7 +937,7 @@ progress::-webkit-progress-bar{
   
 }
 
-@media (max-width:324px) {
+@media (max-width:330px) {
   .box-Social-media{
     flex-direction: column;
   }

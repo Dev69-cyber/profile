@@ -584,9 +584,7 @@ p{
 
 
 /* Screen technologies */
-.technologies{
 
-}
 .technologies-boxs{
   margin-top: 20px;
 }
@@ -599,14 +597,14 @@ p{
   
 }
 .technologies h4{
-  font-size: var(--font-size-p);
+  font-size: var(--font-size-subtitle);
 }
 .technologies p{
   width: 100%;
   max-width: 400px;
   font-size: var(--font-size-p);
   color: var(--color-p);
-  line-height: 1.3em;
+
 }
 .technologies .technologies-box div{
   color: var(--color-p);
@@ -790,9 +788,9 @@ progress::-webkit-progress-bar{
   }
   .Services-Services{
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
     width: 100%;
-    display: block;
+    
 
   }
   .Service{
@@ -817,10 +815,7 @@ progress::-webkit-progress-bar{
   .Service img{
     width: 60px;
   }
-  .Service-content{
 
-    
-  }
   .Service-content h3{
     text-align: left;
   }

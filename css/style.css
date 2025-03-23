@@ -437,7 +437,7 @@ p{
 .Services{
   width: 100%;
   padding: 10px 0;
-  border-radius: 10px;
+
 }
 
 .Services-Services{
@@ -792,26 +792,27 @@ progress::-webkit-progress-bar{
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    height: 500px;
+    display: block;
 
   }
   .Service{
     width: 100%;
     height: auto;
     padding: 10px;
-    flex:1;
-    flex-direction: row;
+
   }
-  .Service .card{
+
+  .Service .bg{
+    width: 100%;
     height: 100%;
-    padding: 0;
+    
+    
   }
   .Service .bg-set{
-    height: 100%;
+    height: auto;
     flex-direction: row;
-    gap: 10px;
     padding: 10px;
-    
+    position: relative;
   }
   .Service img{
     width: 60px;
@@ -932,7 +933,7 @@ progress::-webkit-progress-bar{
   
 }
 
-@media (max-width:320px) {
+@media (max-width:324px) {
   .box-Social-media{
     flex-direction: column;
   }
